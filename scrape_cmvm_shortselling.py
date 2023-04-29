@@ -4,8 +4,8 @@ database
 
 There are 2 types of information:
 
-1) the short selling aggregate numbers
-2) the short selling communications
+1) the short selling aggregate numbers 'agg'
+2) the short selling communications 'comm'
 
 """
 
@@ -18,19 +18,14 @@ from sqlite3 import Error
 from bs4 import BeautifulSoup
 
 
-def get_cmvm_shortselling(type_data: str, output_file_name: str = '') -> list:
+def get_cmvm_shortselling(type_data: str) -> list:
     """
     Get with the information on short positions by company from the CMVM website
 
-    :args:
-    type:
-        'comm' : positions communicated
-        'agg' : aggregate positions
-    output_file_name:
-        name of csv file to export
+    :param str type_data:'comm' : positions communicated or 'agg' : aggregate positions
+    :return a list with results of CMVM web scraping
+    :rtype: list
 
-    :return:
-    list with the information on new communications short positions by company
     """
 
     # set urls
@@ -147,24 +142,35 @@ def get_cmvm_shortselling(type_data: str, output_file_name: str = '') -> list:
         # combine lists back together
         data = tuple(zip(df1, df2, df3, df4, df5))
 
-    if len(output_file_name) > 0:
-        if type_data == 'agg':
-            column_names = ['company', 'date', '% of capital']
-        else:
-            column_names = ['company', 'holder of position', '% of capital', 'communication date', 'position date']
-
-        with open(output_file_name, 'w') as f:
-            write = csv.writer(f)
-            write.writerow(column_names)
-            write.writerows(data)
-
     return data
 
 
-def create_connection(db_file):
-    """ create a database connection to the SQLite database
+def export_file(data: list, filename: str):
+    """
+    To export results in a csv file
+
+    :param list data: the list generated either with the 'agg' or 'comm'
+    :param str filename: to export the results in text format
+    :return: None
+    """
+    if len(data[1]) == 3:  # agg
+        column_names = ['company', 'date', '% of capital']
+    else:  # comm
+        column_names = ['company', 'holder of position', '% of capital', 'communication date', 'position date']
+    with open(filename, 'w') as f:
+        write = csv.writer(f)
+        write.writerow(column_names)
+        write.writerows(data)
+
+    return None
+
+
+def create_connection(db_file: str):
+    """
+    Create a database connection to the SQLite database
         specified by db_file
-    :param db_file: database file
+
+    :param str db_file: database file
     :return: Connection object or None
     """
     conn = None
@@ -178,10 +184,11 @@ def create_connection(db_file):
 
 def insert_short_agg(conn: sqlite3, data: list) -> int:
     """
-    Create a new project into the projects table
-    :param conn:
-    :param data:
-    :return: project id
+    Recreate table short_selling_agg
+
+    :param sqlite3 conn: database connection
+    :param list data: 'agg' data to be exported to database
+    :return int : number of rows
     """
     cur = conn.cursor()
     sql = 'DELETE FROM short_selling_agg'
@@ -198,10 +205,11 @@ def insert_short_agg(conn: sqlite3, data: list) -> int:
 
 def insert_short_comm(conn: sqlite3, data: list) -> int:
     """
-    Create a new task
-    :param conn:
-    :param data:
-    :return:
+    Recreate table short_selling_comm
+
+    :param sqlite3 conn: datanase connection
+    :param list data: 'comm' data to be exported to database
+    :return int : number of rows
     """
 
     cur = conn.cursor()
@@ -228,8 +236,8 @@ def main():
 
     # write to tables
     with conn:
-        project_id = insert_short_agg(conn, get_cmvm_shortselling('agg'))
-        project_id = insert_short_comm(conn, get_cmvm_shortselling('comm'))
+        insert_short_agg(conn, get_cmvm_shortselling('agg'))
+        insert_short_comm(conn, get_cmvm_shortselling('comm'))
 
 
 if __name__ == '__main__':
