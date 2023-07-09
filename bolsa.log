@@ -1,0 +1,173 @@
+2023-07-04 15:31:02,265 INFO: (scrape_euronext.py) Start
+2023-07-04 15:31:02,265 INFO: (scrape_euronext.py) Downloading company directory started.
+2023-07-04 15:31:02,266 INFO: (scrape_euronext.py) url = https://live.euronext.com/en/products/equities/list
+2023-07-04 15:31:02,266 INFO: (scrape_euronext.py) download_folder = /home/miguel/PycharmProjects/Bolsa/./download
+2023-07-04 15:31:29,652 INFO: (scrape_euronext.py) Clicked accepted cookies.
+2023-07-04 15:31:30,299 INFO: (scrape_euronext.py) Found download button.
+2023-07-04 15:31:49,562 INFO: (scrape_euronext.py) downloading company directory finished
+2023-07-04 15:31:49,570 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1cba1042d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8df3c044-caed-4a74-a20f-1fe891259ad4
+2023-07-04 15:31:49,571 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1cba104f50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8df3c044-caed-4a74-a20f-1fe891259ad4
+2023-07-04 15:31:49,572 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1cba1057d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/8df3c044-caed-4a74-a20f-1fe891259ad4
+2023-07-04 15:31:49,573 INFO: (scrape_euronext.py) Downloading indice directory started.
+2023-07-04 15:31:49,573 INFO: (scrape_euronext.py) url = https://live.euronext.com/en/products/indices/list
+2023-07-04 15:31:49,573 INFO: (scrape_euronext.py) download_folder = /home/miguel/PycharmProjects/Bolsa/./download
+2023-07-04 15:32:07,382 INFO: (scrape_euronext.py) Clicked accepted cookies.
+2023-07-04 15:32:08,052 INFO: (scrape_euronext.py) Found download button.
+2023-07-04 15:32:22,129 INFO: (scrape_euronext.py) Downloading indice directory finished.
+2023-07-04 15:32:22,130 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1cba110f10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/68034a97-b400-48d6-9c86-ff6e3302613b
+2023-07-04 15:32:22,137 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1cba1114d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/68034a97-b400-48d6-9c86-ff6e3302613b
+2023-07-04 15:32:22,138 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1cba111c90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/68034a97-b400-48d6-9c86-ff6e3302613b
+2023-07-04 15:32:22,141 INFO: (scrape_euronext.py) End
+2023-07-05 15:06:21,893 INFO: (scrape_euronext.py) Start
+2023-07-05 15:06:21,897 INFO: (scrape_euronext.py) End
+2023-07-05 22:25:30,438 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:25:30,440 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:25:55,426 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:26:01,086 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:26:13,737 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:26:13,745 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6ed88b210>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/fff84bf2-f256-4b5e-9bd7-6f28d3e6a180
+2023-07-05 22:26:13,746 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6ed88bfd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/fff84bf2-f256-4b5e-9bd7-6f28d3e6a180
+2023-07-05 22:26:13,747 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6ed8b0890>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/fff84bf2-f256-4b5e-9bd7-6f28d3e6a180
+2023-07-05 22:26:13,749 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:27:06,453 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:27:06,453 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:27:31,483 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:27:36,414 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:27:50,705 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:27:50,707 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8a4880c090>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e0d8796e-02ef-446a-ab4a-5a737f4f4e9f
+2023-07-05 22:27:50,718 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8a4880d490>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e0d8796e-02ef-446a-ab4a-5a737f4f4e9f
+2023-07-05 22:27:50,720 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8a4880dd10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e0d8796e-02ef-446a-ab4a-5a737f4f4e9f
+2023-07-05 22:27:50,729 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:30:30,364 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:30:30,364 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:31:07,594 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:31:14,311 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:31:27,761 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:31:27,762 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f83f2720f50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f0567bac-e1cc-4f47-87a1-494f2d0ba6a9
+2023-07-05 22:31:27,763 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f83f2721ad0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f0567bac-e1cc-4f47-87a1-494f2d0ba6a9
+2023-07-05 22:31:27,764 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f83f2722350>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f0567bac-e1cc-4f47-87a1-494f2d0ba6a9
+2023-07-05 22:31:27,773 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:31:50,121 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:31:50,122 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:32:31,759 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:32:40,648 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:32:51,448 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:32:51,450 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9a1a5c1250>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9c4e1bf0-7587-48c5-8073-6cacb75e1768
+2023-07-05 22:32:51,452 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9a1a5c2010>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9c4e1bf0-7587-48c5-8073-6cacb75e1768
+2023-07-05 22:32:51,453 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9a1a5c2610>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9c4e1bf0-7587-48c5-8073-6cacb75e1768
+2023-07-05 22:32:51,461 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:33:12,908 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:33:12,917 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:33:47,936 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:33:47,936 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:34:00,161 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:34:00,164 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80df1bd650>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a2983dec-bf6a-4973-83a4-d72ff95c2a18
+2023-07-05 22:34:00,165 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80df1be490>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a2983dec-bf6a-4973-83a4-d72ff95c2a18
+2023-07-05 22:34:00,172 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80df1bed10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a2983dec-bf6a-4973-83a4-d72ff95c2a18
+2023-07-05 22:34:00,174 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:34:27,514 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:34:27,520 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:35:02,323 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:35:02,323 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:35:17,408 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:35:17,417 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f88c6559790>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1c74bce4-c865-418d-88f8-1cf43b8b95fe
+2023-07-05 22:35:17,418 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f88c655a290>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1c74bce4-c865-418d-88f8-1cf43b8b95fe
+2023-07-05 22:35:17,419 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f88c655abd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1c74bce4-c865-418d-88f8-1cf43b8b95fe
+2023-07-05 22:35:17,433 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:37:14,108 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:37:14,109 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:37:45,558 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:37:45,558 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:38:08,036 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:38:08,038 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6e93d765d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e5b4ce7b-6532-4c73-b4d0-f8b3e8e0c75d
+2023-07-05 22:38:08,046 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6e93d77950>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e5b4ce7b-6532-4c73-b4d0-f8b3e8e0c75d
+2023-07-05 22:38:08,047 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6e93d842d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e5b4ce7b-6532-4c73-b4d0-f8b3e8e0c75d
+2023-07-05 22:38:08,048 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:39:09,723 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:39:09,724 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:39:20,915 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:39:20,916 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:39:29,814 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:39:29,828 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b6eaa6bd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a3bf731c-a07a-48fa-8c22-e71b36090a03
+2023-07-05 22:39:29,832 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b6eaa7890>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a3bf731c-a07a-48fa-8c22-e71b36090a03
+2023-07-05 22:39:29,834 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b6eab4250>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a3bf731c-a07a-48fa-8c22-e71b36090a03
+2023-07-05 22:39:29,836 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:41:47,700 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:41:47,700 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:41:57,672 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:41:57,673 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:42:02,294 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:42:02,295 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f2a6052d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/2b161741-e20a-4352-8b53-251030dbd093
+2023-07-05 22:42:02,295 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f2a605f10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/2b161741-e20a-4352-8b53-251030dbd093
+2023-07-05 22:42:02,296 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f2a606750>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/2b161741-e20a-4352-8b53-251030dbd093
+2023-07-05 22:42:02,297 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:43:38,965 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:43:38,965 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:43:48,457 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:43:48,457 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:43:52,500 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:43:52,501 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb0681a15d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0aee76c1-dc02-4eb3-902b-798491243612
+2023-07-05 22:43:52,501 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb0681a2410>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0aee76c1-dc02-4eb3-902b-798491243612
+2023-07-05 22:43:52,502 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb0681a2c50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0aee76c1-dc02-4eb3-902b-798491243612
+2023-07-05 22:43:52,503 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:46:28,775 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:46:28,775 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:46:38,202 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:46:38,203 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:46:42,738 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:46:42,739 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb982a294d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5756558f-61ca-4980-a272-7f753c72cf40
+2023-07-05 22:46:42,740 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb982a2a210>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5756558f-61ca-4980-a272-7f753c72cf40
+2023-07-05 22:46:42,741 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb982a2ab50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5756558f-61ca-4980-a272-7f753c72cf40
+2023-07-05 22:46:42,742 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:51:05,565 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:51:05,565 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:51:15,590 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:51:15,590 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:51:20,069 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:51:20,070 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbf8519cc90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/904a017f-d72e-40fc-8a55-93d96721e11c
+2023-07-05 22:51:20,071 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbf8519dad0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/904a017f-d72e-40fc-8a55-93d96721e11c
+2023-07-05 22:51:20,072 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbf8519e350>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/904a017f-d72e-40fc-8a55-93d96721e11c
+2023-07-05 22:51:20,073 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:52:30,100 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:52:30,100 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:52:39,860 INFO: (scrape_euronext.py) (1 of 1)                  Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:52:39,861 INFO: (scrape_euronext.py) (1 of 1) Opening company page: https://live.euronext.com/en/product/equities/NL0000018034-XAMS/AJAX/market-information
+2023-07-05 22:52:44,306 INFO: (scrape_euronext.py) "scrape_company_information" finished.
+2023-07-05 22:52:44,307 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecbb9f9350>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a5e9eff6-8f16-4152-8169-35dddbe2c30b
+2023-07-05 22:52:44,308 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecbb9fa210>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a5e9eff6-8f16-4152-8169-35dddbe2c30b
+2023-07-05 22:52:44,309 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecbb9faa90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a5e9eff6-8f16-4152-8169-35dddbe2c30b
+2023-07-05 22:52:44,310 INFO: (scrape_euronext.py) "main" finished.
+2023-07-05 22:55:34,596 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:55:34,596 INFO: (scrape_euronext.py) "insert_company_information_sqlite" started.
+2023-07-05 22:55:34,602 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:56:09,072 INFO: (scrape_euronext.py) "main" started.
+2023-07-05 22:56:09,075 INFO: (scrape_euronext.py) "insert_company_information_sqlite" started.
+2023-07-05 22:56:09,081 INFO: (scrape_euronext.py) "scrape_company_information" started.
+2023-07-05 22:56:17,285 INFO: (scrape_euronext.py) (1 of 39)                  Opening company page: https://live.euronext.com/en/product/equities/PTALT0AE0002-XLIS/ALTRI_SGPS/market-information
+2023-07-05 22:56:20,908 INFO: (scrape_euronext.py) (1 of 39) Opening company page: https://live.euronext.com/en/product/equities/PTALT0AE0002-XLIS/ALTRI_SGPS/market-information
+2023-07-05 22:56:21,031 INFO: (scrape_euronext.py) Getting trading table.
+2023-07-05 22:56:24,923 INFO: (scrape_euronext.py) (2 of 39)                  Opening company page: https://live.euronext.com/en/product/equities/PTBCP0AM0015-XLIS/B.COM.PORTUGUES/market-information
+2023-07-05 22:56:28,391 INFO: (scrape_euronext.py) (2 of 39) Opening company page: https://live.euronext.com/en/product/equities/PTBCP0AM0015-XLIS/B.COM.PORTUGUES/market-information
+2023-07-05 22:56:28,565 INFO: (scrape_euronext.py) Getting trading table.
+2023-07-05 22:56:32,749 INFO: (scrape_euronext.py) (3 of 39)                  Opening company page: https://live.euronext.com/en/product/equities/PTSLB0AM0010-XLIS/BENFICA/market-information
+2023-07-05 22:56:35,997 INFO: (scrape_euronext.py) (3 of 39) Opening company page: https://live.euronext.com/en/product/equities/PTSLB0AM0010-XLIS/BENFICA/market-information
+2023-07-05 22:56:36,164 INFO: (scrape_euronext.py) Getting trading table.
+2023-07-05 22:56:40,370 INFO: (scrape_euronext.py) (4 of 39)                  Opening company page: https://live.euronext.com/en/product/equities/PTCFN0AE0003-XLIS/COFINA,SGPS/market-information
+2023-07-05 22:56:43,861 INFO: (scrape_euronext.py) (4 of 39) Opening company page: https://live.euronext.com/en/product/equities/PTCFN0AE0003-XLIS/COFINA,SGPS/market-information
+2023-07-05 22:56:44,469 INFO: (scrape_euronext.py) Getting trading table.
+2023-07-05 22:56:48,643 INFO: (scrape_euronext.py) (5 of 39)                  Opening company page: https://live.euronext.com/en/product/equities/PTCOR0AE0006-XLIS/CORTICEIRA_AMORIM/market-information
+2023-07-05 22:56:52,471 INFO: (scrape_euronext.py) (5 of 39) Opening company page: https://live.euronext.com/en/product/equities/PTCOR0AE0006-XLIS/CORTICEIRA_AMORIM/market-information
+2023-07-05 22:56:53,620 INFO: (scrape_euronext.py) Getting trading table.
+2023-07-05 22:56:58,590 INFO: (scrape_euronext.py) (6 of 39)                  Opening company page: https://live.euronext.com/en/product/equities/PTCTT0AM0001-XLIS/CTT_CORREIOS_PORT/market-information
+2023-07-05 22:57:03,592 INFO: (scrape_euronext.py) (6 of 39) Opening company page: https://live.euronext.com/en/product/equities/PTCTT0AM0001-XLIS/CTT_CORREIOS_PORT/market-information
+2023-07-05 22:57:04,389 INFO: (scrape_euronext.py) Getting trading table.
+2023-07-05 22:57:10,339 INFO: (scrape_euronext.py) (7 of 39)                  Opening company page: https://live.euronext.com/en/product/equities/PTEDP0AM0009-XLIS/EDP/market-information
+2023-07-05 22:57:18,400 INFO: (scrape_euronext.py) (7 of 39) Opening company page: https://live.euronext.com/en/product/equities/PTEDP0AM0009-XLIS/EDP/market-information
+2023-07-05 22:57:20,577 INFO: (scrape_euronext.py) Getting trading table.
+2023-07-05 22:57:29,718 INFO: (scrape_euronext.py) (8 of 39)                  Opening company page: https://live.euronext.com/en/product/equities/ES0127797019-XLIS/EDP_RENOVAVEIS/market-information
+2023-07-05 22:57:36,184 INFO: (scrape_euronext.py) (8 of 39) Opening company page: https://live.euronext.com/en/product/equities/ES0127797019-XLIS/EDP_RENOVAVEIS/market-information
+2023-07-05 22:57:37,437 INFO: (scrape_euronext.py) Getting trading table.
+2023-07-05 22:57:43,797 INFO: (scrape_euronext.py) (9 of 39)                  Opening company page: https://live.euronext.com/en/product/equities/PTESO0AM0000-XLIS/ESTORIL_SOL_N/market-information
+2023-07-05 22:57:47,778 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb99ea1b6d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1f1da8be-a1e1-49eb-8692-5b0896ab70b5
+2023-07-05 22:57:47,779 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb98c9bdd50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1f1da8be-a1e1-49eb-8692-5b0896ab70b5
+2023-07-05 22:57:47,781 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb98c9be550>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/1f1da8be-a1e1-49eb-8692-5b0896ab70b5
