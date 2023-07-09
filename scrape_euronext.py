@@ -18,7 +18,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 
 # global variables
-script_name = '(' + os.path.basename(__file__) + ') ' # for logging
+script_name = '(' + os.path.basename(__file__) + ') '  # for logging
 
 
 def download_company_directory(download_folder: str):
@@ -1075,7 +1075,7 @@ def create_sqlite_tables(database: str):
                       SELECT 'Trading After Hours' as 'market_name', 'MTAH' as  'market_short_name' , \
                       'MTAH' as  'main_market_short_name'"
         cur.execute(sql_insert)
-        logging.debug(script_name + 'Inserted values into table "euronext_markets".' + repr(e))
+        logging.debug(script_name + 'Inserted values into table "euronext_markets".')
     except Exception as e:
         logging.warning(script_name + 'Error inserting values into table "euronext_markets".')
 
